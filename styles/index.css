@@ -1,0 +1,38 @@
+.weather {
+
+}
+.weather.hidden {
+    display: none;
+}
+
+.temperature {
+}
+
+.temperature-image {
+    display: inline-block;
+}
+.temperature-value {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 64px;
+}
+.temperature-units {
+    display: inline-block;
+    line-height: 72px;
+    font-size: 24px;
+    vertical-align: top;
+    margin-left: 5px;
+    user-select: none;
+}
+.temperature-unit {
+    color:#bfbfbf;
+    cursor: pointer;
+}
+.temperature-unit.active {
+    color: white;
+    cursor: initial;
+}
+
+.property {
+    font-size: 16px;
+}
